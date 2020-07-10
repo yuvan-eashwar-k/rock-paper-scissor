@@ -1,0 +1,120 @@
+* {
+  font-family: Montserrat;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #130053;
+}
+
+#heading {
+  text-align: center;
+  //background-color: #153a96;
+}
+
+header>h1 {
+  text-align: center;
+  background-color: white;
+  color: #153a96;
+  margin: 0px;
+  font-size: 40px;
+  padding: 16px;
+}
+
+.scoreboard {
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 20px;
+  width: 250px;
+  height: 100px;
+  font-size: 70px;
+  margin: 20px auto;
+  position: relative;
+}
+
+#userdisplay {
+  background-color: white;
+  border: 3px solid #153a96;
+  position: absolute;
+  top: -10px;
+  left: -60px;
+  font-size: 30px;
+  padding: 5px;
+  color: #153a96;
+}
+
+#userscore, #compscore {
+  font-size: 50px;
+}
+
+#compdisplay {
+  background-color: white;
+  border: 3px solid #153a96;
+  position: absolute;
+  top: -10px;
+  right: -80px;
+  font-size: 30px;
+  padding: 5px;
+  color: #153a96;
+}
+
+#instruction {
+  text-align: center;
+  font-size: 40px;
+}
+
+#rock {
+  height: 270px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+#paper {
+  height: 270px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+#scissors {
+  height: 270px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+#weapons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#rock:hover {
+  cursor: pointer;
+  background: #2b1a61;
+}
+
+#paper:hover {
+  cursor: pointer;
+  background: #2b1a61;
+}
+
+#scissors:hover {
+  cursor: pointer;
+  background: #2b1a61;
+}
+
+#result {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px;
+}
+
+#exp {
+  text-align: center;
+  font-size: 35px;
+}
